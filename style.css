@@ -1,0 +1,47 @@
+* {
+    background-color: aliceblue;
+}
+
+h1 {
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+    font-family: monospace;
+}
+
+h3 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:aliceblue;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: teal;
+    border-radius: 30px;
+}
+
+b {
+    background-color: teal;
+    font-family: monospace;
+}
+
+i {
+    background-color: teal;
+    font-family: monospace;
+}
+
+u {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    color: blue;
+    size: 20px;
+}
