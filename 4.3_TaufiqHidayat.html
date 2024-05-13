@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Membuat Tabel dan Form di HTML</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Pelatihan Pemrograman Dasar :</h2>
+    <form action="action_page.php">
+        <table>
+            <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="NIK">Nomor Induk Kependudukan</label></td>
+                <td>:</td>
+                <td><input type="number" name="NIK" id="NIK"></td>
+            </tr>
+            <tr>
+                <td><label for="lahir">Tempat Lahir</label></td>
+                <td>:</td>
+                <td><input type="text" name="lahir"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr><td><label for="kota">Asal Kabupaten/Kota</label></td>
+                <td>:</td>
+                <td>
+                    <select id="kota">
+                        <option value="Makassar">Makassar</option>
+                        <option value="Gowa">Gowa</option>
+                        <option value="Maros">Maros</option>
+                        <option value="Pangkep">Pangkep</option>
+                        <option value="Barru">Barru</option>
+                        <option value="Parepare">Parepare</option>
+                        <option value="Sidrap">Sidrap</option>
+                        <option value="Pinrang">Pinrang</option>
+                        <option value="Enrekang">Enrekang</option>
+                        <option value="Soppeng">Soppeng</option>
+                        <option value="Wajo">Wajo</option>
+                        <option value="Bone">Bone</option>
+                        <option value="Luwu">Luwu</option>
+                        <option value="Tana Toraja">Tana Toraja</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pendidikan">Pendidikan Terakhir</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="pend" id="pend" value="Diploma 3">
+                    <label for="D3">Diploma 3</label>
+                    <input type="radio" name="pend" id="pend" value="Strata 1">
+                    <label for="S1">Strata 1</label>
+                    <input type="radio" name="pend" id="pend" value="Strata 2">
+                    <label for="S2">Strata 2</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hp">Nomor Telpon</label></td>
+                <td>:</td>
+                <td><input type="tel" name="hp" id="hp" value="+62"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Alamat Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="lang">Pelatihan yang dipilih</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="diklat" id="lang1" value="HTML">
+                    <label for="lang">HTML</label>
+                    <input type="checkbox" name="diklat" id="lang2" value="CSS">
+                    <label for="lang">CSS</label>
+                    <input type="checkbox" name="diklat" id="lang3" value="Javascript">
+                    <label for="lang">Javascript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Alasan singkat mengikuti pelatihan</td>
+                <td>:</td>
+                <td><textarea style="width: 250; height: 100;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="cv">Upload Dokumen CV</label></td>
+                <td>:</td>
+                <td><input type="file" name="CV" id="CV"></td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <input type="submit" value="Kirim">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Membuat Form di HTML</title>
+</head>
+<body>
+    <form action="register.php" method="post">
+        <fieldset>
+            <legend>User login info</legend>
+            <p><label for="idusername">Username:</label>
+            <input id="idusername" type="text" name="username" placeholder="username" /></p>
+            <p><label for="idemail">Email:</label>
+            <input id="idemail" type="email" name="email" placeholder="Alamat Email Anda" /></p>
+            <p><label for="idpassword">Password:</label>
+            <input id="idpassword" type="password" name="password" placeholder="Masukkan Password anda"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Data diri</legend>
+            <p><label for="idalamat">Alamat</label>
+            <input id="idalamat" type="text" name="alamat" placeholder="Alamat anda"></p>
+            <p><label for="idtanggallahir">Tanggal Lahir:</label>
+            <input id="idtanggallahir" type="date" name="tanggallahir"></p>
+            <p><label for="idusia">Usia</label>
+            <input type="number" name="usia" id="idusia" placeholder="Masukkan Usia Anda"></p>
+            <p><label>Jenis Kelamin:</label>
+            <input type="radio" name="jeniskelamin" value="pria"> Pria
+            <input type="radio" name="jeniskelamin" value="lanang"> Lanang
+            <input type="radio" name="jeniskelamin" value="wanita"> Wanita</p>
+        </fieldset>
+        <fieldset>
+            <p><label for="idagree">Saya bersedia mengikuti aturan form</label>
+            <input type="checkbox" name="bersedia_ikut" value="ya" id="idagree"></p>
+            <p><input type="reset" value="Reset">
+            <input type="button" name="submit" value="submit"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
